@@ -1,0 +1,2 @@
+# solana_data_writer
+ The script facilitates seamless data modification on the Solana network through transactions. Leveraging the atomic nature of transactions, this project provides a straightforward interface for invoking Solana programs, ensuring that modifications to on-chain data are executed with precision. Simplify your interaction with the Solana blockchain by utilizing this efficient data writing solution.
