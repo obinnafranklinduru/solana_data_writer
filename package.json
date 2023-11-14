@@ -1,0 +1,32 @@
+{
+  "name": "solana_data_writer",
+  "version": "1.0.0",
+  "description": "The script facilitates seamless data modification on the Solana network through transactions. Leveraging the atomic nature of transactions, this project provides a straightforward interface for invoking Solana programs, ensuring that modifications to on-chain data are executed with precision. Simplify your interaction with the Solana blockchain by utilizing this efficient data writing solution.",
+  "main": "src/index.js",
+  "dependencies": {
+    "@solana-developers/node-helpers": "^1.0.4",
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obinnafranklinduru/solana_data_writer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obinnafranklinduru/solana_data_writer/issues"
+  },
+  "homepage": "https://github.com/obinnafranklinduru/solana_data_writer#readme"
+}
